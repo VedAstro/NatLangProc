@@ -1,6 +1,7 @@
 import azure.functions as func
 import logging
 import spacy
+import pathlib
 
 app = func.FunctionApp()
 
@@ -11,9 +12,13 @@ app = func.FunctionApp()
 @app.function_name(name="HttpTrigger1")
 @app.route(route="hello", auth_level=func.AuthLevel.ANONYMOUS)
 def test_function(req: func.HttpRequest) -> func.HttpResponse:
+
     logging.info('Python HTTP trigger function processed a request.')
 
-    nlp = spacy.load("en_core_web_lg")
+    print(get_spacy_path())
+    nlp = spacy.load(get_spacy_path())
+
+    #nlp = spacy.load("en_core_web_sm")
     searchKeyword = nlp("money")
 
     searchText1 = nlp(
@@ -31,7 +36,7 @@ def test_function(req: func.HttpRequest) -> func.HttpResponse:
 			"happy, healthy, good meals, respect among relatives.")
 
 
-    threshold = 0.0
+    threshold = 0.1
 
     matched_words = []
     for token in searchText1:
@@ -61,3 +66,7 @@ def test_function(req: func.HttpRequest) -> func.HttpResponse:
              "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response.",
              status_code=200
         )
+    
+def get_spacy_path():     
+    current_path = pathlib.Path(__file__).parent    
+    return str(current_path / 'en_core_web_sm-3.5.0')
