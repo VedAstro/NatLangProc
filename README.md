@@ -12,7 +12,7 @@ via a simple `HTTP GET` request.
 # Options
 Options allow to select the type of tool to process the input text.
 Keywords used follow the same as spaCy, this is done to reduce the learning curve,
-espcially for those who are already familiar with spaCy.
+espcially for those who're already familiar with spaCy.
 
 
 | Name        | Description     | Input | Output | Status  |
@@ -27,6 +27,11 @@ espcially for those who are already familiar with spaCy.
 | more...     | coming soon                         | This is a text.           | ....      | <a target="_blank" href="https://vedastroapilinux.azurewebsites.net/api/eng/dep_/This is a text.">RUN</a>  |
 
 
+
+# Project Goal
+- Use NLP in projects regarless of platform or device.
+- Reduce learning curve faced by newcomers. 
+
 # API Domain
 Currently the BETA public access domain address is `https://vedastroapilinux.azurewebsites.net/api`.
 This is only temporary, idealy the URL should be nice & short with an easy to remember domain name.
@@ -36,6 +41,17 @@ If you have an unused domain name or are willing to sponsor a domain for a year,
 Currently we support only English (eng), but feel free to sugest a language in issues.
 If there is enough support, we will implement as many languages as possible
 or allow you to choose from a list of language models.
+
+# Price
+This API is free & open for public use, as it facilitates ease for newcomers and professionals alike.
+Unfortunately servers cost money to run, though not as much as most companies charge.
+So all we ask is, if this service helped you earn some dough please consider
+sending some this way to pay the bills & maintain the code. Your every contribution helps.
+
+# Reliability
+Currently running on Azure server farms with well proven reliability.
+In the future redundancy in other locals and providers.
+
 
 # Links
 - [Donate](https://www.vedastro.org/Donate) to keep this project going
