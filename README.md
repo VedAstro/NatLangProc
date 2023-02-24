@@ -1,5 +1,6 @@
-# NatLangProc
-Open API for Natural Language Processing (NLP)
+# NLP Open API
+Easy to use "natural language processing" API powered by spaCy.
+Access powerful features like "Sentence Segmentation", Lemmatization via `HTTP GET` request 
 
 <a href="#">
 <img
