@@ -17,13 +17,13 @@ espcially for those who are already familiar with spaCy.
 | Name        | Description     | Input | Output | Status  |
 | ------------- |:-------------:| -----:|-----:|-----:|
 | token       | Token texts                         | This is a text.           | [ 'This ' , ' is' , 'a ' , 'text' ] | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/token/This is a text.">RUN</a> |
-| ents        | text and label of named entity span | Larry Page founded Google | [ ( ' Larry Page' , 'PERSON' ), ( 'Google' , 'ORG' )] | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/ents/Larry Page founded Google) |
-| pos_        | coarse-grained part-of-speech tags  | This is a text.           | [ 'DET' , 'VERB' , 'DET' , 'NOUN' , 'PUNCT' ]         | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/pos_/This is a text.) |
-| tag_        | fine-groined port-of-speech tags    | This is a text.           | [ ' DT' , 'VBZ ' , ' DT' , ' NN ' , ' . ' ]           | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/tag_/This is a text.) |
-| sents       | yields sentence spans               | This a sentence. This is another one.| [ 'This is a sentence. ' , 'This is another one. ' l  | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/sents/This a sentence. This is another one.) |
-| noun_chunks | base noun phrases                   | I have a red car          | [ 'I' , 'a red car' ]                                 | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/dep_/This is a text.) |
-| dep_        | dependency labels                   | This is a text.           | [ 'nsubj' , 'ROOT' , 'det' , 'attr" , 'pun ct' ]      | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/token/This is a text.) |
-| more...     | coming soon                         | This is a text.           | [ 'nsubj' , 'ROOT' , 'det' , 'attr" , 'pun ct' ]      | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/token/This is a text.) |
+| ents        | text and label of named entity span | Larry Page founded Google | [ ( ' Larry Page' , 'PERSON' ), ( 'Google' , 'ORG' )] |<a href="https://vedastroapilinux.azurewebsites.net/api/eng/ents/Larry Page founded Google">RUN</a> |
+| pos_        | coarse-grained part-of-speech tags  | This is a text.           | [ 'DET' , 'VERB' , 'DET' , 'NOUN' , 'PUNCT' ]         | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/pos_/This is a text.">RUN</a> |
+| tag_        | fine-groined port-of-speech tags    | This is a text.           | [ ' DT' , 'VBZ ' , ' DT' , ' NN ' , ' . ' ]           | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/tag_/This is a text.">RUN</a> |
+| sents       | yields sentence spans               | This a sentence. This is another one. | [ 'This is a sentence. ' , 'This is another one. ' l  | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/sents/This a sentence. This is another one.">RUN</a> |
+| noun_chunks | base noun phrases                   | I have a red car          | [ 'I' , 'a red car' ]                                 | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/noun_chunks/I have a red car">RUN</a> |
+| dep_        | dependency labels                   | This is a text.           | [ 'nsubj' , 'ROOT' , 'det' , 'attr" , 'pun ct' ]      | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/dep_/This is a text.">RUN</a> |
+| more...     | coming soon                         | This is a text.           | ....      | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/dep_/This is a text.">RUN</a>  |
 
 
 # API Domain
