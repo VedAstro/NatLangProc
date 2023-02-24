@@ -16,7 +16,7 @@ espcially for those who are already familiar with spaCy.
 
 | Name        | Description     | Input | Output | Status  |
 | ------------- |:-------------:| -----:|-----:|-----:|
-| token       | Token texts                         | This is a text.           | [ 'This ' , ' is' , 'a ' , 'text' ] | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/token/This is a text.) |
+| token       | Token texts                         | This is a text.           | [ 'This ' , ' is' , 'a ' , 'text' ] | <a href="https://vedastroapilinux.azurewebsites.net/api/eng/token/This is a text.">RUN</a> |
 | ents        | text and label of named entity span | Larry Page founded Google | [ ( ' Larry Page' , 'PERSON' ), ( 'Google' , 'ORG' )] | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/ents/Larry Page founded Google) |
 | pos_        | coarse-grained part-of-speech tags  | This is a text.           | [ 'DET' , 'VERB' , 'DET' , 'NOUN' , 'PUNCT' ]         | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/pos_/This is a text.) |
 | tag_        | fine-groined port-of-speech tags    | This is a text.           | [ ' DT' , 'VBZ ' , ' DT' , ' NN ' , ' . ' ]           | [RUN](https://vedastroapilinux.azurewebsites.net/api/eng/tag_/This is a text.) |
