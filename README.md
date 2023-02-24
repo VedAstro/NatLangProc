@@ -1,7 +1,8 @@
 # NLP Open API
-Easy to use Natural Language Processing" API powered by spaCy.</br>
+Easy to use Natural Language Processing API powered by spaCy.</br>
 Access powerful features like **Sentence Segmentation**, **Lemmatization** via a simple `HTTP GET` request.
 
+# How to use
 <a href="#">
 <img
   src="https://www.vedastro.org/images/nlp-api-url-guide.jpg">
