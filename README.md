@@ -52,9 +52,6 @@ Unfortunately servers cost money to run, though not as much as most companies ch
 So all we ask is, if this service helped you earn some dough please consider
 sending some this way to pay the bills & maintain the code. Your every contribution helps.
 
-<iframe id='kofiframe' src='https://ko-fi.com/vedastro89790/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='vedastro89790'></iframe>
-
-
 # Links
 - [Donate](https://www.vedastro.org/Donate) to keep this project going
 - [Contact](https://www.vedastro.org/Contact) reach us via email at contact@vedastro.org
