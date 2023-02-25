@@ -5,3 +5,5 @@
 azure-functions
 spacy
 pathlib
+requests
+lxml
