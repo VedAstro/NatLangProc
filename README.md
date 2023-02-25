@@ -1,5 +1,5 @@
 # NLP Open API
-Easy to use Natural Language Processing API powered by spaCy.</br>
+Easy to use Natural Language Processing API powered by [spaCy](https://github.com/explosion/spaCy).</br>
 Access powerful features like **Sentence Segmentation** & **Lemmatization**</br>
 via a simple `HTTP GET` request.
 
@@ -35,12 +35,16 @@ espcially for those who're already familiar with spaCy.
 # API Domain
 Currently the BETA public access domain address is `https://vedastroapilinux.azurewebsites.net/api`.
 This is only temporary, idealy the URL should be nice & short with an easy to remember domain name.
-If you have an unused domain name or are willing to sponsor a domain for a year, please let us know.
+If you have an unused domain name or are willing to sponsor a domain for a year, [please let us know](https://www.vedastro.org/Contact).
 
 # Language
 Currently we support only English (eng), but feel free to sugest a language in issues.
 If there is enough support, we will implement as many languages as possible
 or allow you to choose from a list of language models.
+
+# Reliability
+Currently running on Microsoft server farms with well proven reliability.
+In the future redundancy in other locals and providers.
 
 # Price
 This API is free & open for public use, as it facilitates ease for newcomers and professionals alike.
@@ -48,9 +52,7 @@ Unfortunately servers cost money to run, though not as much as most companies ch
 So all we ask is, if this service helped you earn some dough please consider
 sending some this way to pay the bills & maintain the code. Your every contribution helps.
 
-# Reliability
-Currently running on Azure server farms with well proven reliability.
-In the future redundancy in other locals and providers.
+<iframe id='kofiframe' src='https://ko-fi.com/vedastro89790/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='vedastro89790'></iframe>
 
 
 # Links
